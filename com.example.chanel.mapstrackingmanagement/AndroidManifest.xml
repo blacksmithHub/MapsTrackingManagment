@@ -1,0 +1,12 @@
+Error decode manifest
+java.io.IOException: Decode error: Type: 0xffff not yet implemented, position: 0xcd4
+	at jadx.core.xmlgen.CommonBinaryParser.die(CommonBinaryParser.java:97)
+	at jadx.core.xmlgen.BinaryXMLParser.decode(BinaryXMLParser.java:143)
+	at jadx.core.xmlgen.BinaryXMLParser.parse(BinaryXMLParser.java:95)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:111)
+	at jadx.api.ResourcesLoader.access$000(ResourcesLoader.java:26)
+	at jadx.api.ResourcesLoader$1.decode(ResourcesLoader.java:93)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:65)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:85)
+	at jadx.api.ResourceFile.getContent(ResourceFile.java:52)
+
